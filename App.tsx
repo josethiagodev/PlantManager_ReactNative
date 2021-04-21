@@ -1,21 +1,28 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import AppLoading from 'expo-app-loading';
+import { useFonts } from 'expo-font';
+
+// import Routes from './src/routes';
+
+import { NavigationContainer } from '@react-navigation/native';
+
+import StackRoutes from './src/routes/stack.routes';
+
+import { LilitaOne_400Regular } from '@expo-google-fonts/lilita-one';
+import { Poppins_400Regular } from '@expo-google-fonts/poppins';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+  let [fontsLoaded] = useFonts({
+    LilitaOne_400Regular,
+    Poppins_400Regular
+  });
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  if(!fontsLoaded)
+    return <AppLoading />
+
+  return (
+    <NavigationContainer>
+      <StackRoutes />
+    </NavigationContainer>
+  )
+}
