@@ -5,7 +5,7 @@ import {
 	View, 
 	Text
 } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/core';
 
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
@@ -16,7 +16,7 @@ export function ConfirmedRegistration() {
 	const navigation = useNavigation();
 
 	function handleConfirmed() {
-		navigation.navigate('HomePage');
+		navigation.navigate('PlantSelect');
 	}
 
 	return (

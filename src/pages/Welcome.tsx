@@ -99,6 +99,6 @@ export function Welcome() {
 		textAlign: 'center',
 		color: colors.green_light_02,
 		fontFamily: fonts.text,
-		fontWeight: '600',
+		fontWeight: '700',
 	},
  })
