@@ -8,9 +8,7 @@
     { "key": "living_room", "title": "Sala" },
     { "key": "bedroom", "title": "Quarto" },
     { "key": "kitchen", "title": "Cozinha" },
-    { "key": "bathroom", "title": "Banheiro" },
-    { "key": "yard", "title": "Quintal" },
-    { "key": "balcony", "title": "Sacada" }
+    { "key": "bathroom", "title": "Banheiro" }
   ],
 
   "plants": [

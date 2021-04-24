@@ -5,11 +5,9 @@ export const HeaderContainer = styled.View`
   align-items: flex-end;
   width: 100%;
   height: auto;
-  background-color: red;
-  padding: 30px 20px 40px 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: #2B7A4B;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 `;
 
 export const HeaderContent = styled.View`

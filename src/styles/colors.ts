@@ -2,11 +2,11 @@ export default {
   green: '#32B768',
   green_dark: '#2B7A4B',
   green_light: '#DAF2E4',
-  green_light_02: 'rgb(221,250,218)', // ddfada
+  green_light_02: 'rgb(221,250,218)', // ddfada 
 
-  green_button: '#c8f7c4',
-  green_button_active: '#b4f4ad', // or 9ff197
-  green_font: 'rgb(33,153,21)',
+  green_button: 'rgba(200, 247, 196, 0.6)', // c8f7c4
+  green_button_active: 'rgba(180, 244, 173, 1)', // b4f4ad or 9ff197
+  green_font: 'rgba(33, 153, 21, 1)',
   green_font_active: 'rgb(26,119,16)', // 29,136,18 or 
 
   heading: '#314a30',
